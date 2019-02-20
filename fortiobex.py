@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""This script gets address database and 
+"""
+This script gets address database and
 selects an address group extracts the ip 
-addressesin a sorted state with whois information."""
+addressesin a sorted state with whois information.
+
+"""
 
 __author__      = "Mesut Bayrak"
 __copyright__   = "Copyright 2016, Planet Earth"
@@ -166,7 +169,7 @@ else:
     print("Kullanilan vdomlar :",vdomlar)
     
     addres_arailk=getaddreses_invdom(icerik,vdomlar[2][1],vdomlar[3][1])
-    print("ARVATO vdom adres araligi : ",addres_arailk)
+    print("musteri vdom adres araligi : ",addres_arailk)
     
     adresler=getaddreses(icerik,addres_arailk)
     #print(adresler)
